@@ -9,18 +9,6 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    protocol DataDelegate: AnyObject {
-        func sendData(data: String)
-    }
-    
-    weak var delegate: DataDelegate?
-
-    
-   
-    
-    
-    
-    
     var collectionView: UICollectionView!
     var informacia: List?
     

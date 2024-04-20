@@ -39,9 +39,7 @@ class DetailsVC: UIViewController {
         title1.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -271).isActive = true
     }
     
-    func configurePotunia() {
-        potunia1 = UIImage(named: <#T##String#>)
-    }
+    
     
     
 }
